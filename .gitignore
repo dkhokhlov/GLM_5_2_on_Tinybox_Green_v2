@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+
+# Local logs / scratch
+*.log
+
+# Claude Code local index cache
+.claude/
+
+# Personal overrides only. The tracked .env IS the config of record
+# (it holds no secrets; it is deployment config), so .env is committed.
+.env.local
+.env.*.local
+
+.codebase-index
