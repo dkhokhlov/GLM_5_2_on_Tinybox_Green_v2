@@ -24,4 +24,4 @@ __pycache__/
 .env.local
 .env.*.local
 
-.codebase-index
+.opencode/index/
